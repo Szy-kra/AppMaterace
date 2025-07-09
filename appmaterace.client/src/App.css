@@ -1,0 +1,79 @@
+﻿:root {
+    --bg-primary: #dc3545;
+    --bg-secondary: #ffffff;
+    --text-on-primary: #ffffff;
+    --text-on-secondary: #212529;
+    --border-color: #dee2e6;
+    --accent-primary: #1A2027;
+}
+
+[data-theme='dark'] {
+    --bg-primary: #1A2027;
+    --bg-secondary: #2D3748;
+    --text-on-primary: #E2E8F0;
+    --text-on-secondary: #E2E8F0;
+    --border-color: #4A5568;
+    --accent-primary: #dc3545;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-on-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.table {
+    --bs-table-bg: var(--bg-secondary);
+    --bs-table-color: var(--text-on-secondary);
+    --bs-table-border-color: var(--border-color);
+    --bs-table-hover-bg: var(--border-color);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-accent-bg: color-mix(in srgb, var(--text-on-secondary) 5%, transparent);
+    color: var(--text-on-secondary);
+}
+
+:root .bg-light {
+    color: var(--text-on-secondary);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav {
+    text-align: center;
+    width: auto;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.product-image {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-to-cart-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+}
