@@ -1,6 +1,8 @@
 # AppMaterace
 React + Vite + TypeScript + Bootstrap: front-end for mattress order management
 
+![image](https://github.com/user-attachments/assets/4cd30c2f-76fa-4ce8-8f84-f0adb612e897)
+
 # AppMaterace: System Zarządzania Zamówieniami Materacy
 
 ![React](https://img.shields.io/badge/React-18-blue)
